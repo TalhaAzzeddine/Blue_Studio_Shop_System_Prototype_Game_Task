@@ -16,7 +16,11 @@ public class PlayerCurrancySystem : MonoBehaviour
 
     public void RemoveCurrancy(float currancy)
     {
-        Currancy -= currancy;
+        if (Currancy >= currancy)
+        {
+            Currancy -= currancy;
+        }
+
     }
 
 }

@@ -30,6 +30,7 @@ namespace CustomizableCharacters.CharacterEditor.Demo
         [SerializeField] private Transform _attackHeightReference;
         [SerializeField] private Animator _animator;
         [SerializeField] private Rigidbody2D _charachterRb;
+        [SerializeField] private GameObject _ClothesInventory;
 
 
         [Header("Inputs")]
@@ -49,6 +50,7 @@ namespace CustomizableCharacters.CharacterEditor.Demo
         [SerializeField] private KeyCode _walkInput = KeyCode.LeftShift;
         [SerializeField] private KeyCode _sheathInput = KeyCode.Return;
         [SerializeField] private KeyCode _cycleExpressionInput = KeyCode.Space;
+        [SerializeField] private KeyCode _openCloseInventoryInput = KeyCode.I;
 #endif
         [Header("Settings")]
         [SerializeField] private float _acceleration;
@@ -72,6 +74,8 @@ namespace CustomizableCharacters.CharacterEditor.Demo
         private Coroutine _currentCoroutine;
         private bool _isDisabled;
         private readonly string[] _attackTriggers = new string[] { "Attack 1", "Stab" };
+
+        public static bool CanMove = true;
 
         #region Unity Methods
 
@@ -99,6 +103,9 @@ namespace CustomizableCharacters.CharacterEditor.Demo
 
         private void Update()
         {
+            if (!CanMove)
+                return;
+
             HandleInput();
 
             if (_inputs.InputAttacked && _hasMeleeWeapon && _currentState == State.Moving)
@@ -122,6 +129,8 @@ namespace CustomizableCharacters.CharacterEditor.Demo
                 HandleAnimator();
                 _inputs.ResetSheath();
             }
+
+            HandleClothesInventoryInputMenu();
         }
 
 
@@ -406,6 +415,19 @@ namespace CustomizableCharacters.CharacterEditor.Demo
             _animator.SetFloat("Direction", _animatorDirection);
         }
 
+        private void HandleClothesInventoryInputMenu()
+        {
+            if (Input.GetKeyDown(_openCloseInventoryInput))
+                _ClothesInventory.SetActive(!_ClothesInventory.activeSelf);
+
+        }
+
+
+        public static void TogglePlayerMovmenetState(bool canMove)
+        {
+            CanMove = canMove;
+
+        }
         #endregion
 
         #region Coroutines
