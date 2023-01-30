@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32e09b961407c5498f81d8c5bd3e85f, type: 3}
+  m_Name: Hair 2
+  m_EditorClassIdentifier: 
+  clothes:
+  - clothesType: {fileID: 11400000, guid: d3a1c3064b6776740b99852624a7188e, type: 2}
+    ClothPrice: 100
+    ClothSprites:
+    - {fileID: 21300000, guid: 541160603c7039c42a8fbc28fe8af084, type: 3}
+    - {fileID: 21300000, guid: 48ef5162d6f087d4ebab8c1ca4eb965f, type: 3}
+    - {fileID: 21300000, guid: ea49874a151a0ed44af80a7b080edce4, type: 3}

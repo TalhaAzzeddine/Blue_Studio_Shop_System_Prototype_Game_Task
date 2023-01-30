@@ -1,0 +1,1816 @@
+fileFormatVersion: 2
+guid: 29e87bb2b8695db48b3694f863388557
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 444
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544b395b6b5c1144fa5119d8059a1e2d
+      internalID: -587175356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 435
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a154acc7d3b9d54096b3b193d4591f9
+      internalID: -1533351912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 408
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a2ffa2ab99a12448541fe93d1433c9
+      internalID: -1877619462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 408
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b7bfdff434630488a54ed10d6810c9
+      internalID: 700850202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 396
+        width: 165
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e1ec29a9c2a7b4e9f47da910e8714d
+      internalID: 42539231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 423
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305002e19c08eb946a1248e8b0a7d0a6
+      internalID: 1425487483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 423
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4787d74f40bd24389685c992e05e9a
+      internalID: 1161456413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 408
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd8ca701dfde9d47bf93a86abf68a38
+      internalID: 545368145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 411
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1322c0ef83a2c47b6c7119659849d4
+      internalID: 439834469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 408
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad37ff76464764a8b240c9c8cf9f59
+      internalID: 2041217491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 408
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb76effdc1969844a1e45c33f1ebd89
+      internalID: 1639510261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 342
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1ebadbe8da34c4b86d1fb8084a52bc
+      internalID: 1836807743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_12
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 339
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400524bc8b5e4b4690d4b7e8ff5fe4e
+      internalID: 1810931116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 312
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f4f422d24f5454dad54d37e6a3cb8a
+      internalID: 104910400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_14
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 339
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04fff527ecc7184f96602bf203d4517
+      internalID: 59406360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 336
+        width: 129
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff9f5f2c03881c4cb270ce54b018001
+      internalID: 1248506401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 327
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24bcd6e04d44b941a3c344a93580829
+      internalID: 2123480102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 327
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04da4e7ed9444be4c822d212bc6726e9
+      internalID: -55046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 312
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586037181efef574ca817ee1853b1424
+      internalID: -1272449212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_19
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 312
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01396709def40a4cb63ad12a6a4a19a
+      internalID: 776135027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff0a0b77a453274d9d1387b6120e55b
+      internalID: -1225665262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 312
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8c88b3da1656347928985dae3da787
+      internalID: -392331134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 312
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d52efc2e2f8f34997482e74f374fff
+      internalID: 1740554841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 240
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dc28fd0dbd3454fb764f9d3df52e64
+      internalID: -158540748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_24
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 240
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1c0e37f3174e74f8177a0ded4282e3
+      internalID: 708248773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 240
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3736ae71cfcccdd46bd706d09c867fe0
+      internalID: 375988364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 240
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe4e84ad8f3c2c4b8800b33919ec321
+      internalID: 243556737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_27
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 240
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d649cc2788d72414e9e92e0036462300
+      internalID: 725685652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_28
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 240
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0836fd329c17e1c44a6c9a2e2d2b5d13
+      internalID: -2100400881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 240
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e343008a3f41a44aa81ca7a47d6991
+      internalID: 1677377654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 240
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e2849cbdb3b3a47a9dc93387497831
+      internalID: -1115279905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_31
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 240
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baf2689277d980478deee3394d1505d
+      internalID: 262780378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_32
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 240
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c27eed72cd23e4b9b598abc1d55379
+      internalID: -1950111552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 192
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3d1e516bd8d1d4a8f17c837406bed3
+      internalID: -104429188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_34
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 192
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9d42f766337c54da55a61020a6eb56
+      internalID: 24281595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_35
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 192
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bf8d9427464c944b71ac10cfdb1dac
+      internalID: -1715690687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 192
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83a3691b02d002498ad16ef5b043fb8
+      internalID: 1351460197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_37
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 192
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814af322871e336498c5dcbe50329e8c
+      internalID: -145264208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_38
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 192
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c51a7a079444194f9687d7f0b523854
+      internalID: 57963289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_39
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 192
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5780f04b20e641a4eb1a0f9a29053f2e
+      internalID: -427580985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_40
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 192
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092722ddcb63f754d929486147478db1
+      internalID: 690189337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_41
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 192
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d8d31ccc59fde4cb77a196d29c7a11
+      internalID: 1800563302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_42
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 192
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4887a9a9bf93949828e34c39160337
+      internalID: 394033080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_43
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730bf93ef1e4e754793b4ad912453270
+      internalID: 716330262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_44
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3034ca3e4b6b84d93e30b609e47c1e
+      internalID: -1034406470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_45
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f775eab2774bdc48bd903e5b3ce684d
+      internalID: -1235264600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b56ce86ee4f8949973fba7e7df5116
+      internalID: 608297995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_47
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3558fc1cc8b58a9499ac68d7de2fa68c
+      internalID: -147100349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_48
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b117cfb3a99044597ee4a533cdb29b
+      internalID: 460375428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_49
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff7767e298976140b29ff0b7ba7a17f
+      internalID: -1302657528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_50
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ea402c2ae58104faa36b31c54b32a9
+      internalID: -1126896237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_51
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856b22523a439f147bad423fd2ac0061
+      internalID: 2081395493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_52
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 144
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd5e2269ed10ac45be290f7dc38314f
+      internalID: 1535576314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_53
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 96
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e6869f8e7b9f849ab16090c750a4ec
+      internalID: 1768960919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_54
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05257ab2703f04e4db94f2ce676d16dc
+      internalID: 64417128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_55
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 96
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb7a44a2295da347b47b4d6dc6a0567
+      internalID: -215850983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_56
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 96
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d09ec0ee98d764aa4b4d50eca21970
+      internalID: 884232110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_57
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e03e3cc87dcdb48b40f1874515e173
+      internalID: -679505995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_58
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 96
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e42f3a215f31a143bd0b59e1b659ca4
+      internalID: -529463806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_59
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 96
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a46302258a74dd42ad19a8bf2719c04
+      internalID: -781987640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_60
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 96
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3befd39b594854c8df941d6daf9fbe
+      internalID: 219611380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_61
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 48
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1813b3b56f3417248856a240fa9e77d6
+      internalID: -1856098204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_62
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 48
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dd1267df334a84e81370e810022239
+      internalID: 496752349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_63
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 48
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e8c14e1ee303a44bf93198b040b54b
+      internalID: -399164806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_64
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 48
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf5c156604e16647bacb95a5781f6f6
+      internalID: -1647147307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_65
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 48
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8fd5d84d112eb4eaec0ced7ecccecb
+      internalID: 1399136601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_66
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 48
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0dc854a9a2ba74fa890c5110d29611
+      internalID: -72461177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_67
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 48
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ba274ab77ca2948b2c308bb5606d0d
+      internalID: -1651828564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_68
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 48
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e751bf822592e4e8a4fc5bce7a7e19
+      internalID: 239425725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_69
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a0362842a619b458428d566972fe9e
+      internalID: -1577673877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7866a8ba016ab0b43acab80cb87da59f
+      internalID: -124819081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_71
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48a5827cbae7aa4293f3840c91a5d19
+      internalID: -1602759028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_72
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1b13ea893e5d043a02d34d80a9675f
+      internalID: -1612199008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_73
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62301fb173d6f3498d0fb262d397a85
+      internalID: 1018596594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_74
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f1f2a42a6c495469939bbfefc60538
+      internalID: 388249913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_75
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba7749af4cc2bc48bd5668340a729a4
+      internalID: 1803271320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_thinking_emotes_animation_48x48_76
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b692148aa4976204cba33b9bd67ca5bb
+      internalID: -1946977452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_thinking_emotes_animation_48x48_10: 1639510261
+      UI_thinking_emotes_animation_48x48_17: -55046
+      UI_thinking_emotes_animation_48x48_36: 1351460197
+      UI_thinking_emotes_animation_48x48_25: 375988364
+      UI_thinking_emotes_animation_48x48_47: -147100349
+      UI_thinking_emotes_animation_48x48_41: 1800563302
+      UI_thinking_emotes_animation_48x48_52: 1535576314
+      UI_thinking_emotes_animation_48x48_27: 725685652
+      UI_thinking_emotes_animation_48x48_13: 104910400
+      UI_thinking_emotes_animation_48x48_69: -1577673877
+      UI_thinking_emotes_animation_48x48_44: -1034406470
+      UI_thinking_emotes_animation_48x48_73: 1018596594
+      UI_thinking_emotes_animation_48x48_5: 1425487483
+      UI_thinking_emotes_animation_48x48_33: -104429188
+      UI_thinking_emotes_animation_48x48_71: -1602759028
+      UI_thinking_emotes_animation_48x48_59: -781987640
+      UI_thinking_emotes_animation_48x48_4: 42539231
+      UI_thinking_emotes_animation_48x48_38: 57963289
+      UI_thinking_emotes_animation_48x48_55: -215850983
+      UI_thinking_emotes_animation_48x48_65: 1399136601
+      UI_thinking_emotes_animation_48x48_26: 243556737
+      UI_thinking_emotes_animation_48x48_43: 716330262
+      UI_thinking_emotes_animation_48x48_11: 1836807743
+      UI_thinking_emotes_animation_48x48_34: 24281595
+      UI_thinking_emotes_animation_48x48_49: -1302657528
+      UI_thinking_emotes_animation_48x48_63: -399164806
+      UI_thinking_emotes_animation_48x48_48: 460375428
+      UI_thinking_emotes_animation_48x48_45: -1235264600
+      UI_thinking_emotes_animation_48x48_1: -1533351912
+      UI_thinking_emotes_animation_48x48_31: 262780378
+      UI_thinking_emotes_animation_48x48_24: 708248773
+      UI_thinking_emotes_animation_48x48_0: -587175356
+      UI_thinking_emotes_animation_48x48_57: -679505995
+      UI_thinking_emotes_animation_48x48_60: 219611380
+      UI_thinking_emotes_animation_48x48_22: 1740554841
+      UI_thinking_emotes_animation_48x48_42: 394033080
+      UI_thinking_emotes_animation_48x48_20: -1225665262
+      UI_thinking_emotes_animation_48x48_37: -145264208
+      UI_thinking_emotes_animation_48x48_56: 884232110
+      UI_thinking_emotes_animation_48x48_12: 1810931116
+      UI_thinking_emotes_animation_48x48_67: -1651828564
+      UI_thinking_emotes_animation_48x48_9: 2041217491
+      UI_thinking_emotes_animation_48x48_53: 1768960919
+      UI_thinking_emotes_animation_48x48_62: 496752349
+      UI_thinking_emotes_animation_48x48_74: 388249913
+      UI_thinking_emotes_animation_48x48_72: -1612199008
+      UI_thinking_emotes_animation_48x48_8: 439834469
+      UI_thinking_emotes_animation_48x48_6: 1161456413
+      UI_thinking_emotes_animation_48x48_75: 1803271320
+      UI_thinking_emotes_animation_48x48_32: -1950111552
+      UI_thinking_emotes_animation_48x48_51: 2081395493
+      UI_thinking_emotes_animation_48x48_58: -529463806
+      UI_thinking_emotes_animation_48x48_40: 690189337
+      UI_thinking_emotes_animation_48x48_66: -72461177
+      UI_thinking_emotes_animation_48x48_23: -158540748
+      UI_thinking_emotes_animation_48x48_50: -1126896237
+      UI_thinking_emotes_animation_48x48_15: 1248506401
+      UI_thinking_emotes_animation_48x48_70: -124819081
+      UI_thinking_emotes_animation_48x48_16: 2123480102
+      UI_thinking_emotes_animation_48x48_29: 1677377654
+      UI_thinking_emotes_animation_48x48_76: -1946977452
+      UI_thinking_emotes_animation_48x48_35: -1715690687
+      UI_thinking_emotes_animation_48x48_14: 59406360
+      UI_thinking_emotes_animation_48x48_30: -1115279905
+      UI_thinking_emotes_animation_48x48_39: -427580985
+      UI_thinking_emotes_animation_48x48_3: 700850202
+      UI_thinking_emotes_animation_48x48_2: -1877619462
+      UI_thinking_emotes_animation_48x48_61: -1856098204
+      UI_thinking_emotes_animation_48x48_18: -1272449212
+      UI_thinking_emotes_animation_48x48_64: -1647147307
+      UI_thinking_emotes_animation_48x48_54: 64417128
+      UI_thinking_emotes_animation_48x48_7: 545368145
+      UI_thinking_emotes_animation_48x48_46: 608297995
+      UI_thinking_emotes_animation_48x48_21: -392331134
+      UI_thinking_emotes_animation_48x48_68: 239425725
+      UI_thinking_emotes_animation_48x48_19: 776135027
+      UI_thinking_emotes_animation_48x48_28: -2100400881
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
