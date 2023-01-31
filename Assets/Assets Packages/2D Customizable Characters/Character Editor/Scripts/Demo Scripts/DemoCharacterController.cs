@@ -50,7 +50,7 @@ namespace CustomizableCharacters.CharacterEditor.Demo
         [SerializeField] private KeyCode _walkInput = KeyCode.LeftShift;
         [SerializeField] private KeyCode _sheathInput = KeyCode.Return;
         [SerializeField] private KeyCode _cycleExpressionInput = KeyCode.Space;
-        [SerializeField] private KeyCode _openCloseInventoryInput = KeyCode.I;
+        [SerializeField] private KeyCode _openCloseInventoryInput = KeyCode.Tab;
 #endif
         [Header("Settings")]
         [SerializeField] private float _acceleration;

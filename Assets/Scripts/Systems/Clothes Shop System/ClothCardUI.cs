@@ -15,6 +15,12 @@ public class ClothCardUI : MonoBehaviour
     [SerializeField] private GameObject m_EquipeButton;
     [SerializeField] private GameObject m_UnequipeButton;
 
+    [Space(10)]
+    [SerializeField] private AudioSource m_InteractioUIAudiosSource;
+    [SerializeField] private AudioClip m_BuySellSound;
+    [SerializeField] private AudioClip m_EquipeSound;
+
+
     //"All the sides sprites of that cloth ( 0 -> Up, 1 -> Down , 2 -> Side)"
     private List<Sprite> _clothSprites = new List<Sprite>();
     private ClothTypeEnum _clothTypeValue;
@@ -23,6 +29,7 @@ public class ClothCardUI : MonoBehaviour
     private string _cardId;
     private bool isEquiped = false;
 
+    private AudioSource _cardUIAudioSource = null;
 
     public void ConfigurateClothCard(List<Sprite> clotheSidesSprites, float price, ClothTypeEnum clothType, ClothCategory clothCategory, bool isInventory)
     {
@@ -105,18 +112,39 @@ public class ClothCardUI : MonoBehaviour
 
     public void Buy()
     {
+        if (!_cardUIAudioSource)
+        {
+            AudioSource audioSrc = Instantiate(m_InteractioUIAudiosSource);
+            _cardUIAudioSource = audioSrc;
+        }
+
+        _cardUIAudioSource.PlayOneShot(m_BuySellSound);
         ClothShopManager.Instance.SetClothSprites(GetAllClothSideSprites());
         ClothShopManager.Instance.EquipeCloth(_clothTypeValue, price, this, true);
     }
 
     public void Sell()
     {
+        if (!_cardUIAudioSource)
+        {
+            AudioSource audioSrc = Instantiate(m_InteractioUIAudiosSource);
+            _cardUIAudioSource = audioSrc;
+        }
+
+        _cardUIAudioSource.PlayOneShot(m_BuySellSound);
         ClothShopManager.Instance.SetClothSprites(GetAllClothSideSprites());
         ClothShopManager.Instance.UnEquipeCloth(_clothTypeValue, price, this, true);
     }
 
     public void Equipe()
     {
+        if (!_cardUIAudioSource)
+        {
+            AudioSource audioSrc = Instantiate(m_InteractioUIAudiosSource);
+            _cardUIAudioSource = audioSrc;
+        }
+
+        _cardUIAudioSource.PlayOneShot(m_EquipeSound);
         ClothShopManager.Instance.SetClothSprites(GetAllClothSideSprites());
         ClothShopManager.Instance.EquipeCloth(_clothTypeValue, price, this, false);
         isEquiped = true;
@@ -124,6 +152,13 @@ public class ClothCardUI : MonoBehaviour
 
     public void UnEquipe()
     {
+        if (!_cardUIAudioSource)
+        {
+            AudioSource audioSrc = Instantiate(m_InteractioUIAudiosSource);
+            _cardUIAudioSource = audioSrc;
+        }
+
+        _cardUIAudioSource.PlayOneShot(m_EquipeSound);
         ClothShopManager.Instance.SetClothSprites(GetAllClothSideSprites());
         ClothShopManager.Instance.UnEquipeCloth(_clothTypeValue, price, this, false);
         isEquiped = false;

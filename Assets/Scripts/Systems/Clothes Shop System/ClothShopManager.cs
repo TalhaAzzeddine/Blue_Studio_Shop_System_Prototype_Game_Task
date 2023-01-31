@@ -27,6 +27,8 @@ public class ClothShopManager : MonoBehaviour
     [Space(10)]
     [SerializeField] private TextMeshProUGUI m_PlayerCurrancyText;
     [Space(10)]
+    [SerializeField] private TextMeshProUGUI m_ActiveListText;
+    [Space(10)]
     [SerializeField] private string m_currancy;
 
     [Space]
@@ -95,7 +97,7 @@ public class ClothShopManager : MonoBehaviour
             }
         }
 
-
+        m_ActiveListText.text = ClothCategory.Apperance.ToString();
 
     }
 
@@ -124,6 +126,8 @@ public class ClothShopManager : MonoBehaviour
                 }
 
             }
+
+            m_ActiveListText.text = ClothCategory.Equipment.ToString();
         }
     }
 

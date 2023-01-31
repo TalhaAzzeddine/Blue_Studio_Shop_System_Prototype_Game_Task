@@ -7,6 +7,8 @@ public class TriggerZoneBase : MonoBehaviour
 {
     [SerializeField] protected KeyCode _intearctInputKey = KeyCode.E;
     [SerializeField] protected GameObject _InteractButtonUI;
+    [SerializeField] protected AudioSource _InteractionAudioSource;
+    [SerializeField] protected AudioClip _InteractionSound;
 
 
     public virtual void OnTriggerEnter2D(Collider2D collision)

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ClothesInventoryManager : MonoBehaviour
@@ -7,6 +8,8 @@ public class ClothesInventoryManager : MonoBehaviour
     [SerializeField]
     private List<ClothCardUI> playerClothCards = new List<ClothCardUI>();
     [SerializeField] private GameObject m_CardClothPrefab;
+    [Space(10)]
+    [SerializeField] private TextMeshProUGUI m_ActiveListText;
     [Space(10)]
     [SerializeField] private Transform m_ClothesCardParent;
     [Space(10)]
@@ -35,6 +38,8 @@ public class ClothesInventoryManager : MonoBehaviour
             clothCardUI.ConfigurateClothCard(Cloth.GetAllClothSideSprites(), Cloth.Price, Cloth.CardClothType, Cloth.CardClothCategory, true);
             clothCardUI.ToggleCardClothEquipeState(clothCardUI.IsEquiped);
         }
+
+        m_ActiveListText.text = ClothCategory.Apperance.ToString();
     }
 
     public void InitEquipmentClothesData()
@@ -56,6 +61,9 @@ public class ClothesInventoryManager : MonoBehaviour
 
             clothCardUI.ToggleCardClothEquipeState(clothCardUI.IsEquiped);
         }
+
+        m_ActiveListText.text = ClothCategory.Equipment.ToString();
+
     }
 
     private void ClearCards()

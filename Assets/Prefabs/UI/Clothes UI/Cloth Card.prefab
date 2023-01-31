@@ -841,6 +841,9 @@ MonoBehaviour:
   m_SellButton: {fileID: 1914184465797893007}
   m_EquipeButton: {fileID: 2986542176168138199}
   m_UnequipeButton: {fileID: 4174138126975628246}
+  m_InteractioUIAudiosSource: {fileID: 980370308882954892, guid: 0350deb008e757747a2b10133a0b4b31, type: 3}
+  m_BuySellSound: {fileID: 8300000, guid: e07dc769d3b002946ac8583dd3795ae9, type: 3}
+  m_EquipeSound: {fileID: 8300000, guid: 420c51bd205faae44a60a1e4f9d36547, type: 3}
 --- !u!1 &3324531089600316603
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,6 +29,8 @@ public class ShopKeeperTriggerZone : TriggerZoneBase
 
                 shopKeeper.InteractWithClothesShopKeeper();
 
+                _InteractionAudioSource.PlayOneShot(_InteractionSound);
+
             }
 
         }

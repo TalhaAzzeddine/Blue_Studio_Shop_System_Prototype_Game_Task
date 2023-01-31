@@ -16,8 +16,7 @@ public class DialogueShopKeeper : MonoBehaviour
     [SerializeField] private Animator m_DialogueAnimator;
     [SerializeField] private AnimationClip m_closeDialogueAnimation;
 
-    string hello = "Hellow";
-    string baye = "Bye";
+
     [Space(10)]
 
     [Header("Clothes Shop UI")]
@@ -29,7 +28,6 @@ public class DialogueShopKeeper : MonoBehaviour
 
     private bool _firstOpenShop = true;
 
-    private bool _canShowInteractButtons;
 
     public void InteractWithClothesShopKeeper()
     {
@@ -38,8 +36,8 @@ public class DialogueShopKeeper : MonoBehaviour
 
         if (_firstOpenShop)
         {
-            StartCoroutine(AnimateTypeWriterText(hello));
 
+            m_DialogueText.text = m_DiaologueParoles[0];
 
             m_BuyButton.SetActive(true);
             m_ExitButton.SetActive(true);
@@ -48,8 +46,8 @@ public class DialogueShopKeeper : MonoBehaviour
         }
         else
         {
-            StartCoroutine(AnimateTypeWriterText(baye));
 
+            m_DialogueText.text = m_DiaologueParoles[1];
             m_BuyButton.SetActive(true);
             m_ExitButton.SetActive(true);
 
@@ -90,19 +88,6 @@ public class DialogueShopKeeper : MonoBehaviour
 
     }
 
-
-    private IEnumerator AnimateTypeWriterText(string writer)
-    {
-        m_DialogueText.text = "";
-
-        foreach (char c in writer.ToCharArray())
-        {
-            m_DialogueText.text += c;
-            yield return new WaitForSeconds(m_TimeBtwChars);
-
-        }
-
-    }
 
 
 }
